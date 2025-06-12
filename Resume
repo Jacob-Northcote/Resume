@@ -1,0 +1,81 @@
+\documentclass[10pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{parskip}
+\usepackage[hidelinks]{hyperref}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Section formatting
+\titleformat{\section}{\normalsize\bfseries\uppercase}{}{0em}{}
+\titleformat{\subsection}[runin]{\bfseries}{}{0em}{}[--]
+
+% Horizontal rule for section headers
+\newcommand{\sectionrule}{\vspace{2pt}\hrule\vspace{3pt}}
+
+% Reduce item spacing
+\setlist[itemize]{noitemsep, topsep=0pt, left=1em}
+
+\begin{document}
+
+\begin{center}
+    \textbf{\large Jacob Lan Northcote}\\
+    (619)-457-9923 | \href{mailto:JLNorthcote@gmail.com}{JLNorthcote@gmail.com} | LinkedIn-- (Jacob-Northcote)
+\end{center}
+
+\section*{EDUCATION}
+\sectionrule
+\textbf{ARIZONA STATE UNIVERSITY} \hfill Tempe, Arizona \\
+\textit{Arizona State University – Bachelor of Science (Computer Science) Minor (Data Science)} GPA: 3.8 \hfill 2023–2027
+
+\section*{EXPERIENCE}
+\sectionrule
+\textbf{Undergraduate Deep Learning Research Assistant} \hfill Tempe, AZ \\
+\textit{Research} \hfill March 2023–Present
+\begin{itemize}
+    \item Collaborating with ASU faculty on deep learning research focused on TaLiRo, a Python-based toolbox for testing cyber physical systems
+    \item Contributed to modeling systems with ODEs and blackbox functions to generate input traces and evaluate system behavior using metric temporal logic (MTL)
+    \item Utilized test cases in Python for systems like autonomous aircraft models, optimizing safety conditions with algorithms such as Uniform Random and Dual Annealing
+    \item Worked with RTAMT (Real Time Abstract Monitoring Tool) and Py-TaLiRo specifications to verify formal requirements in real time simulation environments
+\end{itemize}
+
+\textbf{Team Lead – Java Communication Platform with Database Integration} \hfill   October   2024
+\begin{itemize}
+    \item JavaFX interface with role specific homepages and workflows for secure, intuitive user interactions
+    \item Integrated H2 SQL database with custom DatabaseHelper class for handling user registration, authentication, and role retrieval
+    \item Organized over 30+ modular Java classes, promoting separation of concerns, maintainability, and clear role based architecture
+    \item Implemented secure login and account creation with password strength checks, username recognition, and a one-time use invitation code system; validated functionality through JUnit tests for authentication and database reliability
+\end{itemize}
+
+\section*{PROJECTS}
+\sectionrule
+\textbf{Stock and Sentiment Analysis Application} \hfill November 2024 \\
+\textit{Developer– Python, News API, yFinance API, Streamlit Dashboard, Pandas}
+{\fontsize{10pt}{12pt}\selectfont
+\begin{itemize}[leftmargin=*, itemsep=1pt]
+    \item Built a real-time dashboard that analyzes live stock data and financial news to assist in emotion-free, data-driven trading decisions
+    \item Enabled users to evaluate buy/sell conditions based on dynamic stock behavior and up-to-date market information
+    \item Visualized trends using interactive time series plots and automated news scraping to reveal sentiment and performance correlations
+    \item Integrated multiple APIs to pull stock prices, historical trends, and related news articles for user-specified tickers
+\end{itemize}
+}
+
+
+
+\section*{COURSEWORK \& TECHNICAL SKILLS}
+\sectionrule
+\textbf{Coursework \& Skills:} Data Structures, Algorithms, Operating Systems, Software Engineering, Calculus I–3, Discrete Math, Linear Algebra, API Integration, Streamlit Dashboard, Pandas \\
+\textbf{Languages:} Java, Python, C++, C, SQL, Scheme
+
+\section*{EXTRACURRICULARS \& INTERESTS}
+\sectionrule
+\textbf{Grand Challenges Scholars Program– ASU Club} \\
+The program has introduced me to valuable research opportunities and helped me build relationships with professors, opening doors to hands on experiences and collaboration with like minded students
+
+\textbf{DevilQuant– ASU Club} \\
+Contribute to projects and collaborate with team members at DevilQuant to apply algorithmic and quantitative methods in solving financial problems using programming, machine learning, and data analysis
+
+\end{document}
